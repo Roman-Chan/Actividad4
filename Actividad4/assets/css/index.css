@@ -1,0 +1,36 @@
+body
+{
+    background-image: url(/assets/img/fondo.jpg);
+}
+main
+{
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+#menu
+{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+#menu li
+{
+    
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: black;
+}

@@ -1,0 +1,45 @@
+
+input,
+select {
+    border-radius: 5px;
+    border: 1px solid #696969;
+    padding-left: 5px;
+}
+
+form {
+    width: 850px;
+    height: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    margin: 30px;
+    height: 30px;
+    text-align: right;
+}
+.prin {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 20px;
+}
+.in {
+    display: flex;
+    margin: 0%;
+}
+.in input {
+    width: 470px;
+}
+div select {
+    width: 470px;
+}
+.ins {
+    display: flex;
+    gap: 5px; 
+    margin: 0%;
+}
+.ins input {
+    width: 133px;
+}
